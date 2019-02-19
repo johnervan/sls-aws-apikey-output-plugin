@@ -2,6 +2,8 @@
 
 This plugin outputs AWS API Gateway Keys into a JSON file. Remember to keep your API Keys secure!
 
+NOTE: This Plugin is still Work In Progress (WIP)
+
 ## Installation
 
 Install with **npm**:
@@ -44,3 +46,6 @@ Only JSON is supported for now
   ]
 }
 ```
+
+### Contribute
+All PRs and Feedback are welcome
