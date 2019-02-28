@@ -52,6 +52,8 @@ class AWSApiKeyOutputPlugin {
           this.saveApiKeys(filteredItems).then(() => {
             resolve();
           });
+        }).catch((err) => {
+          this.serverless.cli.log("Error getting API Keys. Not saving any to file");
         });
     });
   }

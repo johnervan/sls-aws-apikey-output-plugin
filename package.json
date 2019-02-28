@@ -1,6 +1,6 @@
 {
   "name": "sls-aws-apikey-output-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Serverless Plugin for AWS API Gateway Api Key Output",
   "main": "index.js",
   "scripts": {
